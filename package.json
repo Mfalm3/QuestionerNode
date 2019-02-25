@@ -1,0 +1,34 @@
+{
+  "name": "questioner",
+  "version": "1.0.0",
+  "description": "Questioner Api in Node Js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon app.js --exec babel-node --"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mfalm3/QuestionerNode.git"
+  },
+  "keywords": [
+    "Questioner",
+    "Api",
+    "Node"
+  ],
+  "author": "Mfalm3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mfalm3/QuestionerNode/issues"
+  },
+  "homepage": "https://github.com/Mfalm3/QuestionerNode#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
